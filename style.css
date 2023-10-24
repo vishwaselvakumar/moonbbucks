@@ -16,9 +16,7 @@
     background-size: cover;
     background-position: center;
 }
-#home{
-    text-decoration: none;
-    color: #fff;
+
 }
 .navbar{
     width: 85%;
@@ -49,7 +47,9 @@ h3{
     text-transform: uppercase;
     
 }
-
+.navbar ul li a:hover{
+    color: #009688;
+}
 
 .navbar ul li::after{
     content:'';
